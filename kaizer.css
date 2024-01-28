@@ -1,0 +1,58 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  
+}
+
+#hero-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh; /* Use min-height instead of height */
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.white-text-container {
+  color: white;
+  /* Additional styles for white text container, if needed */
+}
+.footer-container {
+  background-image: url('./assets/images/footer.jpg');
+  background-color: black;
+  color: white; /* Set text color to make it visible on the default background */
+}
+* {
+  box-sizing: border-box;
+}
+
+.container, .row, .col-xs-12 {
+  margin: 0;
+  padding: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+.typing-effect {
+      overflow: hidden; /* Hide overflow to create typing effect */
+      white-space: nowrap; /* Prevent line breaks */
+      border-right: 2px solid #000; /* Blinking cursor effect */
+      display: inline-block; /* Display inline to make the border-right apply only to the text */
+    }
+
+
+
+
